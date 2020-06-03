@@ -23,6 +23,8 @@ Array [
                                                                         [string]
   --use-host                Use req.headers.host instead of localhost for
                             one-app-dev-cdn           [boolean] [default: false]
+  ----container-name        Assign a container name with the --name option
+                                                                        [string]
   --help                    Show help                                  [boolean]",
   ],
   Array [],
@@ -57,6 +59,8 @@ Array [
                                                                         [string]
   --use-host                Use req.headers.host instead of localhost for
                             one-app-dev-cdn           [boolean] [default: false]
+  ----container-name        Assign a container name with the --name option
+                                                                        [string]
   --help                    Show help                                  [boolean]",
   ],
   Array [],
@@ -89,6 +93,8 @@ Array [
                                                                         [string]
   --use-host                Use req.headers.host instead of localhost for
                             one-app-dev-cdn           [boolean] [default: false]
+  ----container-name        Assign a container name with the --name option
+                                                                        [string]
   --help                    Show help                                  [boolean]",
   ],
   Array [],
@@ -104,6 +110,7 @@ Array [
   Array [
     Object {
       "appDockerImage": "one-app:5.0.0",
+      "containerName": undefined,
       "devEndpointsFile": "/fake/path/to/fake-module/dev.endpoints.js",
       "dockerNetworkToJoin": "one-test-environment-1234",
       "envVars": "MY_ENV_VAR=value",
@@ -214,6 +221,8 @@ Array [
                                                                         [string]
   --use-host                Use req.headers.host instead of localhost for
                             one-app-dev-cdn           [boolean] [default: false]
+  ----container-name        Assign a container name with the --name option
+                                                                        [string]
   --help                    Show help                                  [boolean]",
   ],
   Array [],
@@ -330,6 +339,8 @@ Array [
                                                                         [string]
   --use-host                Use req.headers.host instead of localhost for
                             one-app-dev-cdn           [boolean] [default: false]
+  ----container-name        Assign a container name with the --name option
+                                                                        [string]
   --help                    Show help                                  [boolean]",
   ],
   Array [],

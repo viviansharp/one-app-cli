@@ -124,6 +124,10 @@ const createYargsConfig = () => {
       default: false,
       type: 'boolean',
     })
+    .option('--container-name', {
+      describe: 'Assign a container name with the --name option',
+      type: 'string',
+    })
     .implies({
       'parrot-middleware': 'modules',
       'dev-endpoints': 'modules',
@@ -152,6 +156,7 @@ try {
     outputFile: argv.outputFile,
     dockerNetworkToJoin: argv.dockerNetworkToJoin,
     useHost: argv.useHost,
+    containerName: argv.containerName,
   });
 } catch (error) {
   /* eslint-disable no-console */
